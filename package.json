@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --testPathPattern=./src/",
+    "coverage": "jest --testPathPattern=./src/ --coverage",
+    "e2e": "jest --testPathPattern=./e2e/ --runInBand",
     "lint": "eslint .",
     "start": "webpack serve --mode development",
     "build": "webpack --mode production"
@@ -36,7 +38,9 @@
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "jest": "^27.4.5",
+    "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.9.0",
+    "puppeteer": "^5.5.0",
     "raw-loader": "^4.0.2",
     "txt-loader": "^1.0.0",
     "url-loader": "^4.1.1",
