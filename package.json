@@ -1,0 +1,47 @@
+{
+  "name": "forms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maden51/forms.git"
+  },
+  "author": "maden51",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maden51/forms/issues"
+  },
+  "homepage": "https://github.com/Maden51/forms#readme",
+  "dependencies": {
+    "core-js": "^3.19.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-jest": "^27.4.5",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^3.6.0",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^27.4.5",
+    "mini-css-extract-plugin": "^0.9.0",
+    "raw-loader": "^4.0.2",
+    "txt-loader": "^1.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
