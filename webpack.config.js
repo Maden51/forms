@@ -9,9 +9,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
-    port: 9000,
+    port: 9020,
     historyApiFallback: true,
-    contentBase: path.resolve(__dirname, '/dist'),
     open: true,
     compress: true,
   },

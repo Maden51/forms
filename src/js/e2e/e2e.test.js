@@ -5,11 +5,11 @@ jest.setTimeout(30000);
 describe('popover', () => {
   let browser = null;
   let page = null;
-  const baseUrl = 'http://localhost:9000';
+  const baseUrl = 'http://localhost:9020';
 
   beforeAll(async () => {
     browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       slowMo: 100,
       devtools: true,
     });
